@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# ./simple_youtube_downloader.sh ulr
+
 destination_dir="${HOME}/simple_youtube_downloader_videos/"
 
 if [ ! -d "${destination_dir}" ]; then
